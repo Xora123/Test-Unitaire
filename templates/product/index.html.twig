@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello ProductController!
+{% endblock %}
+
+{% block body %}
+
+{{ form_start(form, {method: 'POST', action: path('product')}) }}
+
+    {{ form_end(form) }}
+
+{% endblock %}
